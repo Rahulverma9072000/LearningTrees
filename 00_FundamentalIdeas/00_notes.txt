@@ -1,0 +1,22 @@
+Learning Trees 
+Definition of Trees :  
+-> N Nodes all pairs connected with N-1 edges . 
+-> Only 1 simple path between any pair of nodes . 
+-> 1 connected component No Cycle . 
+
+Type of trees : 
+Rooted Tree 
+Unrooted Tree 
+
+📌 Real-life Analogy:
+Unrooted Tree: Think of a family without naming anyone as head. Just connections between members.
+Rooted Tree: You name someone as the elder/root, and now you can talk about generations, descendants, etc.
+
+
+A tree becomes rooted when you pick a specific starting point (root).
+Once rooted, you can talk about:
+Depth
+Height
+Subtrees
+DFS/BFS from root
+Binary trees, etc.
