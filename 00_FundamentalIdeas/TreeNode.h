@@ -11,4 +11,13 @@ class TreeNode{
     TreeNode(T data){
         this->data = data;
     }
+    ~TreeNode(){
+        //When delete root is run than destructor is called 
+        //Jb tk destructor khtm nhi hoga root delete nhi hoga 
+        //So we got the best time to delete the children inside the destructor 
+        //here we can delete the childrens here 
+        for(int i = 0;i < children.size();i +=1){
+            delete children[i];
+        }
+    }
 };
